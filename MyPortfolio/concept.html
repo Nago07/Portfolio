@@ -45,6 +45,7 @@
         <h2>ESP32とNode-Redを使い温度湿度気圧をグラフ化して表示するWEBアプリケーションを作成</h2>
         <p> 使用機器とOSは、「ESP32」「BME280」「Windows10」「Ubuntu(VMware)」
           通信規格は「MQTT」WEBアプリの画面は「Node-Red」で作成。
+          通信の流れとしては、VSCodeでESP32へプログラムを書き込み⇒ESP32がRaspberry PiへMQTT通信でトピックスを送信⇒Raspberry PiがMQTT通信でwindows10 vmware上のUbuntuへトピックスを送信⇒Ubuntu上で動作しているDocker Node-Redがトピックスを受信⇒Node-Redで作成された画面がローカルネット上で開けるようになる。といった動作の流れとなっている
         </p>
       </div>
 
