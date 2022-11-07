@@ -118,11 +118,6 @@
   margin-top: 10px;
 }
 
-.item-list .price {
-  font-weight: bold;
-  margin-top: 15px;
-}
-
 @media (max-width: 800px) {
   .first-view {
     height: calc(100vh - 50px);
