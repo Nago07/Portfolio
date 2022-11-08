@@ -120,7 +120,7 @@
 
 @media (max-width: 800px) {
   .first-view {
-    height: calc(100vh - 50px);
+    height: 40vh;
     background-image: url(../images/index/logomin.png);
     align-items: flex-start;
   }
